@@ -7,25 +7,19 @@
 </head>
 <body>
     <main class="login flow-lg">
-        <h1 class="login__title">LOG IN</h1>
+        <h1 class="login__title">LOGIN</h1>
         <div class="login__forms flow-sm">
-            <div class="login__form">
-                <h5>Email:</h5>
-                <input type="email">
-            </div>
-            <div class="login__form">
-                <h5>Password:</h5>
-                <input type="text">
-            </div>
+            <input class="login__form" id="password" type="text" placeholder="Password" onclick="startGame()">
         </div>
         <div class="login__buttons">
-            <button class="login__button login__button--submit">
+            <button class="login__button login__button--submit" onclick="checkPass()">
                 Submit
             </button>
-            <button class="login__button login__button--clear">
-                Clear
+            <button class="login__button login__button--clear" onclick="removeFromPass()">
+                Delete
             </button>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
