@@ -23,8 +23,8 @@ const allowedPasswords = [
     "n3mD4Auz0G"
 ];
 const gameSettings = {
-    "maxSpawn": 9999999999999,
-    "spawnTimeDiffS": 0,
+    "maxSpawn": 999999999999999999999,
+    "spawnTimeDiffS": 0.025,
     "targetSizePx": 75,
     "activeTimeS": 5,
     "shrinkDelayS": 1,
